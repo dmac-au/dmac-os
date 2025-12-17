@@ -1,3 +1,9 @@
 [[customizations.filesystem]]
 mountpoint = "/"
 minsize = "20 GiB"
+
+[[customizations.user]]
+name = "dmac"
+password = "dmac"
+key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJY87z/FqnEfAa7J2ojHhn8Ct34T2sAbudRlPh+JyTwe dmac@local"
+groups = ["wheel"]
