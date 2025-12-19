@@ -16,7 +16,7 @@ dnf5 -y install niri dms dms-greeter
 dnf5 -y copr disable yalter/niri
 dnf5 -y copr disable avengemedia/dms
 
-dms greeter enable
+# dms greeter enable
 
 #### Example for enabling a System Unit File
 
